@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Redesign</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <body>
+    <div class="container">
+    <div class="header">
+      <img class="header_img" src="https://www.ddir.com/wp-content/themes/ddir/images/logo-new.png" alt="Dick's Drive-In Logo">
+    </div>
+
+    <div class="nav">
+      <nav>
+        <ul class="nav-links">
+          <!-- hamburger code came from here: https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ -->
+          <input type="checkbox" id="checkbox_toggle">
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+          <div class="navbar-items">
+            <li>
+              <div class="dropdown">
+                <a class="About_us" href="#">About Us &or;</a>
+                <div class="dropdown-content">
+                  <a href="#">Communtiy</a>
+                  <a href="#">Food Truck</a>
+                  <a href="#">Door Dash</a>
+                </div>
+              </div> 
+              </li>
+            <li><a class="Menu" href="#">Menu</a></li>
+            <li><a class="Locations" href="#">Locations</a></li>
+            <li><a class="Online_Store" href="#">Online Store</a></li>
+          </div>
+          
+        </ul>
+      </nav>
+    </div>
+    <div class="body-1">
+      <img class="scroll_img" src="scroll.png" alt="scroll image">
+    </div>
+
+    <div class="body-2">
+      <a href="#" class="Menu_button" data-button-type="button" aria-label="Shop (#)">Menu</a>
+      <img class="food" id="burger" src="burger.png" alt="burger image">
+      <img class="food" id="potatoes" src="potatoes.png" alt="potatoes image">
+      <img class="food" id="shakes" src="shakes.png" alt="shakes image">
+      <img class="food_video" src="video_1.png" alt="food video image">
+    </div>
+
+    <div class="body-3">
+      <h1 class="Locations_title">We Have 9 Locations in the Greater Seattle Area:</h1>
+      <img class="Locations_img" src="map.png" alt="locations image">
+      <a href="#" class="Locations_button" data-button-type="button" aria-label="Locations (#)">Locations</a>
+    </div>
+
+    <div class="body-4">
+      <h1 class="Featured_title">We Have Been Featured On...</h1>
+      <img class="featured" id="featured1" src="feature_1.png" alt="feature 1 image">
+      <img class="featured" id="featured2" src="feature_2.png" alt="feature 2 image">
+      <img class="featured" id="featured3" src="feature_3.png" alt="feature 3 image">
+      <img class="featured" id="featured4" src="feature_4.png" alt="feature 4 image">
+    </div>
+
+    <div class="footer">
+      <img class="footer_img" src="https://www.ddir.com/wp-content/themes/ddir/images/footer-logo-white.png" alt="white Dicks logo">
+      <!-- Copied from Dick's Drive In html -->
+      <div id="site-copyright">
+        Copyright © 2022 <i>Dick's</i> Drive-In Restaurants<br>
+        All Rights Reserved<br>
+        (206) 634-0300<br>
+        <a href="#" class="copyright_nav">Home</a> | <a href="#" class="copyright_nav">Contact Us</a> | <a href="#" class="copyright_nav">Accessibility Statement</a>
+      </div>
+    </div>
+  </div>
+    
+  </body>
+</html>
